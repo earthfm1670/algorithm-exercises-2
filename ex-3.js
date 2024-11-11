@@ -1,5 +1,6 @@
 function validatePIN(pin) {
   //Start coding here
+  return /^(\d{4}|\d{6})$/.test(pin);
 }
 
 let result1 = validatePIN("1234");
